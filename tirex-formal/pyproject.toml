@@ -1,0 +1,13 @@
+[project]
+name = "tirex-formal-selector"
+version = "2.0.0"
+description = "TiRex-DHS with soft gating: learned horizon-aware gates down-weight covariates inside TiRex-2's attention."
+requires-python = ">=3.11"
+dependencies = ["torch==2.14.0", "tirex-2==0.3.0", "numpy>=2.0", "scipy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

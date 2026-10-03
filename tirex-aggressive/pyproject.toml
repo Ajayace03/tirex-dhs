@@ -1,0 +1,13 @@
+[project]
+name = "tirex-aggressive-gather"
+version = "2.0.0"
+description = "TiRex-DHS with hard selection: learned horizon-aware gates remove unneeded covariates before TiRex-2's blocks."
+requires-python = ">=3.11"
+dependencies = ["torch==2.14.0", "tirex-2==0.3.0", "numpy>=2.0", "scipy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

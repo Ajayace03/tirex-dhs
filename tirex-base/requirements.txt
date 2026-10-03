@@ -1,0 +1,6 @@
+torch==2.14.0
+tirex-2==0.3.0
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pytest==9.1.1

@@ -1,0 +1,6 @@
+tirex-aggressive/model/model.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+*.ckpt
